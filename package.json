@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "hhhhhhello world",
   "packageManager": "pnpm@9.5.0",
-  "author": "Shylock Wu <shylock.wu@moblor.com>",
+  "author": "Shylock",
   "license": "MIT",
   "engines": {
     "node": "^18.20.0 || >=20.0.0"

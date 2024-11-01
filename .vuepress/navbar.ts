@@ -7,16 +7,20 @@ export const navbar = defineNavbarConfig([
   { text: "归档", link: "/blog/archives/" },
   {
     text: "笔记",
+    icon: "icon-park-solid:bookshelf",
     items: [
-      { text: "示例", link: "/notes/demo/README.md" },
-      { text: "备忘录", link: "" },
+      { text: "备忘录", link: "/memorandum/" },
       {
         text: "防御性CSS",
-        link: "",
+        link: "/defensive-css/",
+        activeMatch: "^/defensive-css/",
+        icon: "streamline:css-three",
       },
       {
-        text: "前端面试题",
-        link: "",
+        text: "前端",
+        link: "/front-end/",
+        activeMatch: "^/front-end/",
+        icon: "codicon:comment-unresolved",
       },
     ],
   },

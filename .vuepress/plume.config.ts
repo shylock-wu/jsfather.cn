@@ -1,6 +1,6 @@
 import { defineThemeConfig } from "vuepress-theme-plume";
 import { navbar } from "./navbar";
-import { notes } from "./notes";
+import notes from "./notes/index";
 
 /**
  * @see https://theme-plume.vuejs.press/config/basic/
@@ -14,7 +14,7 @@ export default defineThemeConfig({
 
   profile: {
     avatar: "/images/avatar.jpg",
-    name: "Shylock blog",
+    name: "Shylock",
     description: "hhhhello world",
     circle: true,
     location: "beijing",
