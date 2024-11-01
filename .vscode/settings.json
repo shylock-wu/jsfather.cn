@@ -1,6 +1,5 @@
 {
-  "cSpell.words": [
-    "vuepress",
-    "hhhhello"
-  ]
+  "cSpell.words": ["vuepress", "hhhhello"],
+  "prettier.enable": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }

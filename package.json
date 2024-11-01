@@ -14,15 +14,19 @@
     "src:dev-clean": "vuepress dev src --clean-cache --clean-temp",
     "src:build": "vuepress build src --clean-cache --clean-temp",
     "src:preview": "http-server src/.vuepress/dist",
-    "vp-update": "pnpm dlx vp-update"
+    "vp-update": "pnpm dlx vp-update",
+    "lint:fix": "prettier . --write"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.18",
-    "vuepress": "2.0.0-rc.18",
-    "vuepress-theme-plume": "1.0.0-rc.113",
     "http-server": "^14.1.1",
-    "vue": "^3.5.12",
     "sass-embedded": "^1.80.4",
-    "typescript": "^5.6.3"
+    "typescript": "^5.6.3",
+    "vue": "^3.5.12",
+    "vuepress": "2.0.0-rc.18",
+    "vuepress-theme-plume": "1.0.0-rc.113"
+  },
+  "dependencies": {
+    "prettier": "^3.3.3"
   }
 }

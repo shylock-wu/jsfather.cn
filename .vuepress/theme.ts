@@ -1,4 +1,4 @@
-import { plumeTheme } from 'vuepress-theme-plume'
+import { plumeTheme } from "vuepress-theme-plume";
 
 export default plumeTheme({
   // 添加您的部署域名
@@ -11,7 +11,7 @@ export default plumeTheme({
      */
     shiki: {
       // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
-      languages: ['shell', 'bash', 'typescript', 'javascript'],
+      languages: ["shell", "bash", "typescript", "javascript"],
     },
 
     /**
@@ -64,4 +64,4 @@ export default plumeTheme({
     //   inputPosition: 'top',
     // },
   },
-})
+});
