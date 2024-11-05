@@ -7,4 +7,8 @@ createTime: 2024/10/29 16:20:52
 permalink: /article/1t8m1ojk/
 ---
 
-<CustomComponent />
+<Custom />
+
+<Card title="卡片标题" icon="twemoji:astonished-face">
+  这里是卡片内容。
+</Card>

@@ -15,11 +15,15 @@
     "src:build": "vuepress build src --clean-cache --clean-temp",
     "src:preview": "http-server src/.vuepress/dist",
     "vp-update": "pnpm dlx vp-update",
-    "lint:fix": "prettier . --write"
+    "lint:fix": "prettier . --write",
+    "prepare": "husky",
+    "precommit": "lint-staged"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.18",
     "http-server": "^14.1.1",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
     "sass-embedded": "^1.80.4",
     "typescript": "^5.6.3",
     "vue": "^3.5.12",
@@ -28,5 +32,8 @@
   },
   "dependencies": {
     "prettier": "^3.3.3"
+  },
+  "lint-staged": {
+    "*.{ts,md}": "prettier --write"
   }
 }

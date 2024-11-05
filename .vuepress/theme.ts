@@ -11,7 +11,7 @@ export default plumeTheme({
      */
     shiki: {
       // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
-      languages: ["shell", "bash", "typescript", "javascript"],
+      languages: ["shell", "bash", "typescript", "javascript", "html", "css"],
     },
 
     /**
